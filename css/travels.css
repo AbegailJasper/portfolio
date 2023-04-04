@@ -1,0 +1,33 @@
+body{
+  background-image: url(../images/BLACK.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kimmy
+{
+  width: 400px;
+  height: 200px;
+}
+
+.lesley
+{
+width: 500px;
+}
+h1{
+  color: aliceblue;
+}
+h2{
+  color: aliceblue;
+}
+li a{
+  color: yellow;
+}
+h3{
+  color: aliceblue;
+}
+p{
+  color: aliceblue;
+}
+a{
+  color: yellow;
+}

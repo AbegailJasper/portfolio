@@ -1,0 +1,13 @@
+* {
+  background-color: skyblue;
+}
+
+.profile {
+    width: 300px;
+    height: 250px;
+    border-radius: 60%;
+}
+
+.content-box {
+    padding-left: 40px;
+}

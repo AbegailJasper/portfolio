@@ -58,22 +58,95 @@ body {
     padding: 20px;
 }
 
-img{
+.gal-abe {
+    width: max-content;
+    position: relative;
+    float: left;
+}
+
+.gal-jas {
+    width: max-content;
+    position: relative;
+    float: right;
+}
+
+.gal-abe img {
     width: 300px;
-    display: block;
-    margin: auto;
+    height: 400px;
+}
+
+.gal-jas img {
+    width: 300px;
+    height: 400px;
+}
+
+.name {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    text-align: none;
+    color: azure;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imggrid {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .activities {
     background-color: rgba(65, 56, 56, 0.2);
     height: 720px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.activities a {
+    display: block;
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    transition: .3s;
+}
+
+.activities a:hover {
+    text-decoration: underline;
+    color: #ddd;
+    font-size: 100px;
 }
 
 .contact-us {
     height: 720px;
+}
+
+.contact-us h3 {
+    width: max-content;
+    margin: auto;
+    font-size: 50px;
+    padding-top: 50px;
+    color: yellow;
+}
+
+.contact-usG {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.contact-usG a{
+    text-decoration: none;
+    color: rgb(0, 55, 128);
+    font-size: 50px;
+}
+
+.contact-usG a:hover {
+    text-decoration: underline;
+    color: aqua;
 }
